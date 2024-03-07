@@ -1,0 +1,95 @@
+
+
+
+
+<div class="elem" id="elem5">
+    <img src="https://cdn.dribbble.com/userupload/13387665/file/original-9b48b4142b52947c47f07172446c809e.jpg?format=webp&resize=200x150&vertical=center"
+        alt="img_5">
+    <p>Branding</p>
+</div>
+<div class="elem" id="elem6">
+    <img src="https://cdn.dribbble.com/userupload/13318160/file/original-0b0ec468e2776cb0114430cf9bb86616.png?format=webp&resize=200x150&vertical=center"
+        alt="img_6">
+    <p>Typography</p>
+</div>
+<div class="elem" id="elem7">
+    <img src="https://cdn.dribbble.com/userupload/13284337/file/still-fbbfe66d8f2fb9e80fe9615934e8b3a7.png?format=webp&resize=200x150&vertical=center"
+        alt="img_7">
+    <p>Animation</p>
+</div>
+<div class="elem" id="elem8">
+    <img src="https://cdn.dribbble.com/userupload/13297296/file/original-a27a4c364334024e1349ad5f906910ac.png?crop=149x0-1349x900&format=webp&resize=200x150&vertical=center"
+        alt="img_8">
+    <p>Print</p>
+</div>
+
+
+
+
+
+#page7 {
+    width: 100%;
+    height: 32%;
+    /* background-color: red; */
+    /* position: relative; */
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 8vh;
+}
+
+#page7 .box {
+    display: inline-block;
+    /* position: absolute; */
+    width: 70%;
+    height: 100%;
+    /* background-color: lightsalmon; */
+    /* border: 1px solid #000; */
+    padding: 1vh 10px;
+    animation-name: move;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition: all linear 1s;
+}
+
+#page7 .inner-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#page7 .box .elem {
+    width: 25%;
+    height: 100%;
+    /* background-color: lightseagreen; */
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    border-radius: 5%;
+    transition: all ease 1s;
+}
+
+#page7 .box .elem:hover {
+    cursor: pointer;
+    box-shadow: 10px -10px 10px rgba(212, 140, 232, 0.402);
+    transition: all ease 1s;
+}
+
+#page7 .elem p {
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+#page7 .elem img {
+    border-radius: 5%;
+}
+
+#page7:hover .box {
+    animation-play-state: paused;
+    transition: all linear 1s;
+    cursor: pointer;
+}
