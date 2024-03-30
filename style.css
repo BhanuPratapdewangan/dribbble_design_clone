@@ -615,12 +615,13 @@ footer #footer-top #social-links {
     transition: all ease 1s;
 }
 
-footer #footer-top #social-links i:hover{
+footer #footer-top #social-links i:hover {
     cursor: pointer;
-    color: none;    
+    color: none;
     background-color: none;
 }
-footer #social-links:hover a:nth-last-child(1) i{
+
+footer #social-links:hover a:nth-last-child(1) i {
     border-radius: 50%;
 }
 
@@ -715,6 +716,345 @@ footer #footer-bottom a {
 /* ================================================================================================ */
 
 /* Responsiveness  */
+
+
+
+@media (max-width:884px) {
+    #page1 nav {
+        height: 18%;
+        /* background-color: red; */
+    }
+
+    #page1 img {
+        width: 10%;
+        height: 100%;
+        /* background-color: yellow; */
+    }
+
+    #page1 #nav-content {
+        width: 45%;
+        height: 100%;
+        /* background-color: lightgreen; */
+        justify-content: space-between;
+    }
+
+    #page1 #nav-content h4 {
+        /* background-color: brown; */
+        width: 18%;
+        font-size: 1.2vw;
+        font-weight: 500;
+    }
+
+    #page1 #nav-content h4 #find-design,
+    #courses {
+        font-size: 1.2vw;
+        width: 6.8vw;
+    }
+
+    #page1 select {
+        width: 100%;
+        display: flex;
+        /* background-color: yellow; */
+    }
+
+    #page1 select option {
+        width: fit-content;
+        /* background-color:red; */
+    }
+
+    #page1 #btn {
+        width: 45%;
+        height: 100%;
+        /* background-color: lightpink; */
+    }
+
+    #page1 #btn button {
+        font-size: 1.3vw;
+    }
+
+    #btn #signup {
+        background-color: #000;
+        color: #fff;
+    }
+
+    #page1 #btn input {
+        width: 20vw;
+        padding: 2vh 1.5vw;
+        outline-color: royalblue;
+    }
+
+    /* Main  */
+    #page1 main {
+        /* background-color: gray; */
+        margin-top: 8vh;
+    }
+
+    #page1 main h3:nth-child(1) {
+        font-size: 1.8vw;
+    }
+
+    #page1 main button {
+        font-size: 1.4vw;
+        font-weight: 500;
+    }
+
+    /* Page2 */
+    #page2 {
+        width: 100%;
+        height: 72%;
+        /* background-color: red; */
+        margin-top: 10vh;
+    }
+
+    #page2 img,
+    video {
+        width: 20vw;
+        height: 60vh;
+    }
+
+    #page2 video {
+        width: 20vw;
+        height: 60vh;
+    }
+
+
+
+    /* Page 3 */
+    #page3 {
+        width: 100%;
+        height: 100%;
+        background-color: red;
+    }
+
+    #page3 #content {
+        width: 100%;
+        height: 100%;
+        padding: 4.5% 4.8%;
+        white-space: wrap;
+        background-color: yellow;
+    }
+
+    #page3 h4 {
+        font-size: 4.2vw;
+        /* background-color: blue; */
+    }
+
+    #page3 .box {
+        width: 31%;
+        height: 70%;
+    }
+
+    #page3 #box-bottom h5 {
+        font-size: 1.8vw;
+        font-weight: 500;
+    }
+
+    #page3 #box-bottom i {
+        font-size: 1.8vw;
+    }
+
+
+    /* Page 4 */
+    #page4 {
+        width: 100%;
+        height: 980%;
+        /* background-color: red; */
+    }
+
+    /* Page - 5 */
+
+    #page5 {
+        margin-top: 15vh;
+        width: 100%;
+        height: 20%;
+        /* background-color: red; */
+    }
+
+    #page5 button {
+        font-size: 1.5vw;
+        font-weight: 600;
+        width: 25%;
+        height: 80%;
+    }
+
+    /* Page6  */
+    #page6 {
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+        padding: 8vh;
+        /* background-color: red; */
+    }
+
+    #page6 h4 {
+        font-size: 5vw;
+        font-weight: 500;
+        /* background-color: red; */
+    }
+
+    #page6 p {
+        font-size: 1.5vw;
+        font-weight: 400;
+    }
+
+    #page6 button {
+        font-size: 1.5vw;
+    }
+
+    /* Page-7 */
+    #page7 {
+        width: 100%;
+        height: 55%;
+        /* background-color: red; */
+        margin-top: 12vh;
+    }
+
+
+    /* Footer  */
+
+    footer {
+        width: 100%;
+        height: 70%;
+        /* background-color: rgba(255, 255, 0, 0.488); */
+        padding: 5vh 5.5vw 0vh 5.5vw;
+    }
+
+    footer #footer-top {
+        width: 100%;
+        height: 50%;
+        /* background-color: lightgrey; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    footer #footer-top #logo {
+        width: 13%;
+        height: 118%;
+        object-fit: cover;
+        object-position: center;
+        /* background-color: darkgrey; */
+        transition: all ease 1s;
+    }
+
+    footer #footer-top #options {
+        width: 70%;
+        height: 100%;
+        justify-content: space-around;
+        /* background-color: rgb(157, 95, 95); */
+        transition: all ease 1s;
+    }
+
+    footer #footer-top #social-links {
+        width: 15%;
+        height: 100%;
+        right: 0;
+        /* background-color: rgb(10, 187, 152); */
+        transition: all ease 1s;
+    }
+
+    footer #footer-top #social-links i:hover {
+        cursor: pointer;
+        color: none;
+        background-color: none;
+    }
+
+    footer #social-links:hover a:nth-last-child(1) i {
+        border-radius: 50%;
+    }
+
+    footer #footer-bottom {
+        width: 100%;
+        height: 50%;
+        /* background-color: lightcyan; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer #footer-bottom #copyright {
+        width: 50%;
+        height: 100%;
+        /* background-color: lightgreen; */
+        transition: all ease 1s;
+    }
+
+    footer #footer-bottom #links {
+        width: 50%;
+        height: 100%;
+        /* background-color: rgb(121, 169, 213); */
+        transition: all ease 1s;
+    }
+
+    footer #logo,
+    #options,
+    #social-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all ease 1s;
+    }
+
+    footer #logo {
+        justify-content: flex-start;
+    }
+
+    footer img {
+        width: 68%;
+        height: 45%;
+        /* background-color: red; */
+    }
+
+    footer #options {
+        justify-content: space-evenly;
+    }
+
+    footer #options h4 {
+        font-size: 1.1vw;
+        font-weight: 500;
+    }
+
+    footer #social-links {
+        gap: 1vw;
+        justify-content: flex-end;
+    }
+
+    footer #social-links i {
+        font-size: 1.6vw;
+    }
+
+    footer #copyright,
+    #links {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1.2vw;
+    }
+
+    footer #links {
+        justify-content: flex-end;
+    }
+
+    footer #footer-top a {
+        text-decoration: none;
+        color: #000000f0;
+        font-size: 1vw;
+        font-weight: 500;
+    }
+
+    footer #footer-bottom a {
+        text-decoration: none;
+        color: #0000008a;
+        font-size: 1vw;
+        font-weight: 500;
+    }
+}
+
+
+
+/* =========================================================================== */
+/* =========================================================================== */
 
 @media (max-width:600px) {
 
@@ -974,15 +1314,17 @@ footer #footer-bottom a {
 
 
     /* Page-7 */
-    #page7{
+    #page7 {
         /* background-color: red; */
         width: 100%;
         height: 25%;
     }
+
     #page7 .container .elem {
         /* background-color: lightseagreen; */
         margin: 0vh 3.5vw;
     }
+
     #page7 .container .box p {
         font-size: 3.2vw;
     }
